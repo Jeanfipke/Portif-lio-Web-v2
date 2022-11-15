@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: column;
+  background-color: blueviolet;
+  height: 100vh;
+  width: 100px;
+  justify-content: space-between;
+}
+
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-self: center;
+  color: #fff;
+  font-size: 40px;
+  padding-inline: 32px;
+  padding-block: 10px;
+  background-color: rgb(113, 26, 194);
+}
+
+#icons {
+  display: flex;
+  flex-direction: column;
+  margin-block: auto;
+  width: 100px;
+}
+
+.nav-icons {
+  margin-block: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.nav-icons img {
+  transition: 0.3s;
+}
+
+.nav-icons:hover img {
+  transform: scale(200%);
+  transition: 0.3s;
+}
+
+#wrap img {
+  margin-left: 50px ;
+  margin-right: 60px;
+  max-width: 300px;
+  border-radius: 50%;
+  box-shadow: rgb(217, 179, 255) 5px 0px 0px 5px, rgb(228, 200, 255) 16px 0px 0px 5px, rgb(240, 223, 255) 26px 0px 0px 5px;
+}
+
+#wrap h1 {
+  margin-block: 20px;
+  font-size: 50px;
+}
+
+#wrap  h3 {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#trybe {
+  color: blueviolet;
+}
+
+#trybe:active {
+  color: rgb(201, 149, 250);
+}
+
+#trybe:visited {
+  color: rgb(93, 12, 170);
+  
+}
+
+#wrap {
+  display: flex;
+  margin-inline: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#first-name {
+  color: blueviolet;
+}
+
+#about-me {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  #logo {
+    display: none;
+  }
+
+  #wrap {
+    margin-inline: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-block: auto;
+  }
+
+  #wrap img {
+    width: 50%;
+    margin-bottom: 50px;
+    margin-inline: auto;
+  }
+
+  #about-me {
+    margin-inline: auto;
+    text-align: center;
+  }
+  
+  #nav-bar {
+    /* position: fixed; */
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+
+  #icons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .nav-icons {
+    
+  }
+}
