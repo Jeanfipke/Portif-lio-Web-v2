@@ -56,58 +56,6 @@ main {
   transition: 0.3s;
 }
 
-#wrap img {
-  margin-left: 50px ;
-  margin-right: 60px;
-  max-width: 300px;
-  border-radius: 50%;
-  box-shadow: rgb(217, 179, 255) 5px 0px 0px 5px, rgb(228, 200, 255) 16px 0px 0px 5px, rgb(240, 223, 255) 26px 0px 0px 5px;
-}
-
-#trybe {
-  font-size: 20px;
-  color: blueviolet;
-}
-
-#my-name {
-  margin-block: 20px;
-  font-size: 50px;
-}
-
-#wrap  h3 {
-  font-size: 20px;
-}
-
-a {
-  text-decoration: none;
-}
-
-
-#trybe:active {
-  color: rgb(201, 149, 250);
-}
-
-#trybe:visited {
-  color: rgb(93, 12, 170);
-  
-}
-
-#wrap {
-  display: flex;
-  margin-inline: auto;
-  justify-content: center;
-  align-items: center;
-}
-
-#first-name {
-  color: blueviolet;
-}
-
-#about-me {
-  margin-right: 50px;
-  display: flex;
-  flex-direction: column;
-}
 
 @media screen and (max-width: 900px) {
   main {
@@ -117,24 +65,6 @@ a {
   
   #logo {
     display: none;
-  }
-
-  #wrap {
-    margin-inline: 50px;
-    display: flex;
-    flex-direction: column;
-    margin-block: auto;
-  }
-
-  #wrap img {
-    width: 50%;
-    margin-bottom: 50px;
-    margin-inline: auto;
-  }
-
-  #about-me {
-    margin-inline: auto;
-    text-align: center;
   }
   
   #nav-bar {
